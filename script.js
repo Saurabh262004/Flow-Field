@@ -71,12 +71,11 @@ function setup() {
 			flowfeild[i][j].push((noise((j/noiseZoom)+1000, (i/noiseZoom)+1000)*flowSpeed)-(flowSpeed/2));
 		}
 	}
-	// noLoop();
 }
 
 function draw() {
 	background(0, 0, 0, 10);
-	// displayFlow();
+  //displayFlow();
 	displayPoints();
 	applyFeildForce();
 }
