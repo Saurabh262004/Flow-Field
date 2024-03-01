@@ -75,7 +75,7 @@ function setup() {
 
 function draw() {
 	background(0, 0, 0, 10);
-  //displayFlow();
+	//displayFlow();
 	displayPoints();
 	applyFeildForce();
 }
