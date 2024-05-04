@@ -19,7 +19,7 @@ class particle {
 	}
 
 	update() {
-   this.speed.x += this.acc.x;
+		this.speed.x += this.acc.x;
 		this.speed.y += this.acc.y;
 		this.pos.x += this.speed.x;
 		this.pos.y += this.speed.y;
