@@ -13,7 +13,7 @@ class particle {
 			y : 0
 		}
 
-		this.speedLimitMin = 0.00001;
+		this.speedLimitMin = .00001;
 		this.speedDepletion = .05;
 		this.accDepletion = .1;
 	}
