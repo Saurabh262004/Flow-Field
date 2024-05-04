@@ -21,7 +21,7 @@ class particle {
 	update() {
 		this.pos.x += this.speed.x;
 		this.pos.y += this.speed.y;
-		this.speed.x += this.acc.x
+		this.speed.x += this.acc.x;
 		this.speed.y += this.acc.y;
 
 		if (this.pos.x < 0 || this.pos.x > width || this.pos.y < 0 || this.pos.y > height)
